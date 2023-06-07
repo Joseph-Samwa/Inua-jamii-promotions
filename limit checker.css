@@ -1,0 +1,78 @@
+
+
+html{
+
+    background-color: blue;
+}
+
+.access{
+    
+    display: inline-block;
+    position:relative;
+    margin-left:0.2rem;
+    margin-top: 5rem;
+}
+#Cloan{
+    width: 9rem;
+    height: 1.8rem;
+}
+#Cincome{
+    width: 9rem;
+    height: 1.8rem;
+}
+#Cperiod{
+    width: 9rem;
+    height: 1.8rem;
+}
+.read{    display: inline-block;
+
+    position:relative;
+
+    margin-left:0.2rem;
+    margin-top: 5rem;
+
+    }
+#loanR{
+    width: 9rem;
+    height: 1.8rem;
+    background-color: greenyellow;
+  
+
+}
+#interest{
+
+    width: 9rem;
+
+    height: 1.8rem;
+    background-color: hotpink;
+    
+}
+#repay{
+    width: 9rem;
+    height: 1.8rem;
+    background-color: red;
+}
+p{
+    margin: 3px;
+}
+#Button2{
+
+    width:8rem;
+    height:2rem;
+    border-radius:5px;
+    margin-left:4rem;
+    margin-top: -0.1rem;
+}
+#refresh{
+    float: right;
+    border-radius: 8%;
+    background-color: goldenrod;
+}
+#button{
+
+    width:8rem;
+    height:2rem;
+    border-radius:5px;
+    margin-left:4rem;
+    margin-top: -0.1rem;
+	background-color: gold;

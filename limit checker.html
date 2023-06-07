@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>access</title>
+    <link rel="stylesheet" href="limit checker.css">
+</head>
+<h1 style="text-align:center;color:white;">INUA JAMII LOANS AND PROMOTIONS</h1>
+
+ Fill in the fields below to check your loan limit
+<body>
+	<section>
+
+    <div class="access">
+        <input type="number" id="Cloan" placeholder="loan amount"><br>
+        <br>
+        <input type="number" id="Cincome" placeholder="monthly income"><br>
+        <br>
+        <input type="number" id="Cperiod" placeholder="Duration(months) eg.3"><br>
+        <br>
+    </div>
+    <div class="read">
+        <p><b>Loan limit</b></p>
+        <input type="text" id="loanR" readonly>
+        <p><b>Interest(monthly)</b></p>
+        <input type="text" id="interest" readonly>
+        <p><b>Repay Amount</b></p>
+        <input type="text" id="repay" readonly>
+    </div>
+    <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br /><button onclick="limit();" id="Button2">Check</button>
+    <script src="limit checker.js"></script>
+    </section>
+</body>
+
+
+</html>
